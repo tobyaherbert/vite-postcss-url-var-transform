@@ -1,0 +1,27 @@
+//
+// Styles
+//
+
+:root {
+  --vue-image: url('@/assets/logo.png');
+}
+
+a {
+  color: #42b983;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+.vue-logo {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background-image: var(--vue-image);
+}
